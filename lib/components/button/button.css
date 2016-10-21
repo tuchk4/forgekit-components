@@ -1,0 +1,13 @@
+.base {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  user-select: none;
+  white-space: nowrap;
+  text-decoration: none;
+  overflow: hidden;
+}
