@@ -1,6 +1,12 @@
 {
   "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
   "rules": {
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
     "no-shadow": 0,
     "import/no-extraneous-dependencies": 0,
     "arrow-body-style": 0,

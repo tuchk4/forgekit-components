@@ -1,4 +1,4 @@
-# Add icon to button
+# Feature: Icon
 
 * Link to [github storybobok source example](https://github.com/tuchk4/forgekit-components/blob/master/stories/forge-components/button-with-icon.js)
 * Link to [github feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/components/button/features/icon/index.js)

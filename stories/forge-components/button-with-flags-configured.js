@@ -8,4 +8,5 @@ const configuredFlags = highliteFlagsFeature({
   alert: customFlagsStyles.alert,
 });
 
-export default forge(configuredFlags)(Button, 'ButtonWithСofiguredFlags');
+const ButtonWithCofiguredFlags = forge(configuredFlags)(Button, 'ButtonWithCofiguredFlags');
+export default ButtonWithCofiguredFlags;

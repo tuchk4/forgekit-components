@@ -4,7 +4,10 @@ const webpack = require('webpack');
 module.exports = {
   module: {
     loaders: [{
-      test: /storybook-\readme\/.+\.css$/,
+      test: /highlight\.js\/styles.+\.css$/,
+      loader: 'style!css',
+    }, {
+      test: /github\-markdown\-css\/.+\.css$/,
       loader: 'style!css',
     }, {
       test: /\.json$/,
@@ -14,7 +17,10 @@ module.exports = {
       loader: 'raw',
     }, {
       test: /\.css$/,
-      exclude: 'storybook-readme',
+      exclude: [
+        /highlight\.js\/styles.+\.css$/,
+        /github\-markdown\-css\/.+\.css$/,
+      ],
       loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss',
     }],
   },

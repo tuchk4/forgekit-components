@@ -1,4 +1,4 @@
-# Click value
+# Feature: Click value
 
 * Link to [github feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/components/button/features/click-value/index.js)
 

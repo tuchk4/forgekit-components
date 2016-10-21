@@ -37,12 +37,15 @@
     "postcss-simple-vars": "^3.0.0",
     "postcss-url": "^5.1.2",
     "raw-loader": "^0.5.1",
-    "storybook-readme": "^1.1.0",
+    "storybook-readme": "^1.2.0",
     "style-loader": "^0.13.1"
   },
   "dependencies": {
+    "babel-eslint": "^7.0.0",
     "classnames": "^2.2.5",
+    "eslint-plugin-react": "^6.4.1",
     "forgekit": "^1.0.0",
-    "react": "^15.3.2"
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }

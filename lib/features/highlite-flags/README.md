@@ -1,4 +1,4 @@
-# Highlite flags
+# Feature: Highlite flags
 
 * Link to [github feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/highlite-flags/index.js)
 
