@@ -7,6 +7,7 @@ import Button from './forge-components/button';
 import ButtonWithAllFeatures from './forge-components/button-with-all-features';
 import ButtonWithFlags from './forge-components/button-with-flags';
 import ButtonWithIcon from './forge-components/button-with-icon';
+import ButtonWithСofiguredFlags from './forge-components/button-with-flags-configured';
 
 const icons = {
   '': 'No icon',
@@ -40,6 +41,14 @@ storiesOf('Buttons')
     >
       {text('Label', 'Hello world')}
     </ButtonWithFlags>
+  ))
+  .addWithInfo('Сofigured Flags', () => (
+    <ButtonWithСofiguredFlags
+      warning={boolean('warning', false)}
+      alert={boolean('alert', false)}
+    >
+      {text('Label', 'Hello world')}
+    </ButtonWithСofiguredFlags>
   ))
   .addWithInfo('All Features', () => (
     <ButtonWithAllFeatures
