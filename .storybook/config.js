@@ -11,7 +11,7 @@ addDecorator(centered);
 
 setOptions({
   name: 'Forgekit',
-  url: '<TODO>',
+  url: 'https://github.com/tuchk4/forgekit-components',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
