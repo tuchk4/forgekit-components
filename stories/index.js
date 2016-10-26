@@ -14,6 +14,8 @@ import ButtonWithFlags from './forge-components/button-with-flags';
 import ButtonWithIcon from './forge-components/button-with-icon';
 import ButtonWithCofiguredFlags from './forge-components/button-with-flags-configured';
 
+// ROCKS stories
+import './rocks/button';
 
 const icons = {
   '': 'No icon',

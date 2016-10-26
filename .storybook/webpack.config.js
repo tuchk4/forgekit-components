@@ -44,6 +44,9 @@ module.exports = {
     fallback: path.join(__dirname, '..', 'node_modules'),
   },
   resolve: {
+    alias: {
+      rocks: path.resolve(__dirname, '../lib.rocks'),
+    },
     fallback: path.join(__dirname, '..', 'node_modules'),
     extensions: ['', '.js', '.css'],
     modulesDirectories: [
