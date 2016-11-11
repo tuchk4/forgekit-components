@@ -1,17 +1,18 @@
 import forge from 'forgekit';
 
 import Button from 'components/button';
-import styles from './button.css';
 
 // Features
-import theme from 'features/theme';
+// import themable from 'features/theme';
 import highliteFlagsFeature from 'features/highlite-flags';
 import iconFeature from 'components/button/features/icon';
+import theme from './button.css';
 
 export default forge(
   iconFeature,
   highliteFlagsFeature,
-  theme({
-    style: styles.style,
-  })
-)(Button, 'ButtonRocks');
+)(Button, 'ButtonRocks', {
+  theme: {
+    style: theme.style
+  },
+});
