@@ -13,6 +13,7 @@ export default forge(
   highliteFlagsFeature,
 )(Button, 'ButtonRocks', {
   theme: {
-    style: theme.style
+    style: theme.style,
+    base: theme.base,
   },
 });
