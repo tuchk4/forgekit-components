@@ -1,14 +1,38 @@
+@import '../../variables.css';
+@import '../../colors.css';
+
 .base {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  vertical-align: middle;
-  align-items: center;
-  text-align: center;
-  box-sizing: border-box;
   user-select: none;
+  position: relative;
+  outline: 0;
+  border: var(--border-base) var(--border-color);
+  display: inline-block;
+  background: 0 0;
   white-space: nowrap;
+  min-width: 5.5rem;
+  text-align: center;
+  text-transform: none;
+  font-weight: 500;
+  font-style: inherit;
+  font-variant: inherit;
+  font-size: var(--font-size);
+  /*font-family: inherit;*/
   text-decoration: none;
+  cursor: pointer;
   overflow: hidden;
-  color: #ffcc33
+  color: var(--font-color);
+  line-height: calc(var(--base-indent) * 4.5);
+  min-height: calc(var(--base-indent) * 4.5);
+  margin: var(--base-indent);
+  padding: 0 var(--base-indent);
+  &:hover {
+    background-color: var(--palette-grey-100);
+  }
+  &:active {
+    transform: scale(.96);
+  }
+}
+
+.animation {
+  transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
 }

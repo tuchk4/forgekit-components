@@ -1,0 +1,20 @@
+@import '../../variables.css';
+@import '../../colors.css';
+
+.materialButton {
+  text-transform: uppercase;
+  border-radius: .1875rem; /* 3px */
+  border: 0;
+  font-weight: 500;
+  letter-spacing: .010rem;
+  padding: 0 calc(var(--base-indent) * .75);
+  margin: calc(var(--base-indent) * .75) var(--base-indent);
+  font-family: var(--font-family);
+  transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+  &:hover {
+    background-color: var(--palette-grey-200);
+  }
+  &:active {
+    transform: none;
+  }
+}

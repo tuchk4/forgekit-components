@@ -1,0 +1,18 @@
+@import '../../lib-material/variables.css';
+@import '../../lib-material/colors.css';
+
+.successRaised{
+  background-color: var(--success-color);
+  color: var(--font-contrast-color);
+  &:hover{
+    background-color: var(--success-color);
+  }
+}
+
+.dangerRaised{
+  background-color: var(--danger-color);
+  color: var(--font-contrast-color);
+  &:hover{
+    background-color: var(--danger-color);
+  }
+}

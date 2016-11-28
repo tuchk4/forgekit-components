@@ -1,0 +1,14 @@
+@import '../lib/variables.css';
+
+/* Variables */
+
+:root{
+  /* font */
+  --font-family: 'Roboto', sans-serif;
+
+  /* base sizing value */
+  --base-value: .5rem;
+
+  /* Base indents */
+  --base-indent: var(--base-value);
+}

@@ -1,0 +1,28 @@
+@import './colors.css';
+
+:root{
+    /* Typography */
+    --font-size: 1rem;
+    --font-family: Arial, Helvetica, sans-serif;
+
+    /* Colors */
+    --font-color: var(--color-black);
+    --font-contrast-color: var(--color-white);
+    --primary-color: var(--palette-light-blue-700);
+    --contrast-color: var(--palette-pink-500);
+    --icon-color: var(--palette-grey-900);
+    --border-color: var(--palette-grey-500);
+    --highlight-color: var(--palette-yellow-200);
+    --disabled-color: var(--palette-grey-500);
+    --danger-color: var(--palette-red-a700);
+    --success-color: var(--palette-light-green-900);
+
+    /* Borders */
+    --border-base: .0625rem solid; /* 1px */
+
+    /* base sizing value */
+    --base-value: .5rem;
+
+    /* Base indents */
+    --base-indent: var(--base-value);
+}

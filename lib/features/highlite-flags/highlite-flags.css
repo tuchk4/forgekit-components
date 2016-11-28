@@ -1,7 +1,57 @@
-.alert {
-  color: #cc0000;
+@import '../../colors.css';
+@import '../../variables.css';
+
+.danger {
+  color: var(--palette-red-a300);
+  &.raised {
+    color: var(--color-white);
+    background-color: var(--palette-red-a300);
+    &:hover {
+      background-color: var(--palette-red-a300);
+    }
+  }
+}
+
+.primary {
+  color: var(--primary-color);
+  &.raised {
+    color: var(--color-white);
+    background-color: var(--primary-color);
+    &:hover {
+      background-color: var(--primary-color);
+    }
+  }
 }
 
 .warning {
-  color: #ffcc33;
+  color: var(--palette-yellow-800);
+  &.raised {
+    color: var(--color-white);
+    background-color: var(--palette-yellow-800);
+    &:hover {
+      background-color: var(--palette-yellow-800);
+    }
+  }
+}
+
+.success {
+  color: var(--palette-green-400);
+  &.raised {
+    color: var(--color-white);
+    background-color: var(--palette-green-400);
+    &:hover {
+      background-color: var(--palette-green-400);
+    }
+  }
+}
+
+.disabled {
+  color: var(--disabled-color);
+  background: transparent;
+  cursor: default;
+  pointer-events: none;
+  &:hover, &:active {
+    color: var(--disabled-color);
+    background: transparent;
+  }
 }

@@ -1,0 +1,15 @@
+@import '../../colors.css';
+
+.raised {
+  box-shadow: 0 .125rem .3125rem 0 rgba(0, 0, 0, .26);
+  &:hover {
+    background-color: transparent;
+  }
+  &:active {
+    box-shadow: 0 .25rem .5rem 0 rgba(0, 0, 0, .4);
+  }
+  /* TODO: something wrong here */
+  &.danger, &.primary, &.success, &.warning{
+    color: var(--color-white);
+  }
+}

@@ -1,0 +1,8 @@
+@import '../lib/colors.css';
+@import '../lib/variables.css';
+
+:root{
+  --primary-color: var(--palette-light-blue-700);
+  --danger-color: var(--palette-red-a700);
+  --success-color: var(--palette-green-600);
+}
