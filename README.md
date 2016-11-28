@@ -29,7 +29,7 @@ Work with css:
 * [Button/icon](https://github.com/tuchk4/forgekit-components/tree/master/lib/components/button/features/icon)
 * [HighliteFlags](https://github.com/tuchk4/forgekit-components/tree/master/lib/features/highlite-flags)
 * [Raised](https://github.com/tuchk4/forgekit-components/tree/master/lib/features/raised)
-* [ClikcOutside](https://github.com/tuchk4/forgekit-components/tree/master/lib/features/click-outside)
+* [ClickOutside](https://github.com/tuchk4/forgekit-components/tree/master/lib/features/click-outside)
 
 
 ## Little explanation
