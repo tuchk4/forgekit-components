@@ -1,6 +1,6 @@
-# Feature: Click value
+# Button feature: Click value
 
-* Link to [clickValue feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/components/button/features/click-value/index.js)
+* [ClickValue button feature sources at Github](https://github.com/tuchk4/forgekit-components/blob/master/lib/components/button/features/click-value/index.js)
 
 
 NOTE: could be used with any component. Not only with button. So should be moved from *components/button/features* to *features*

@@ -1,6 +1,6 @@
 # Feature: Click outside
 
-* Link to [click outside feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/click-outside/index.js)
+* [Click outside feature isources at Github](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/click-outside/index.js)
 
 ```js
 import clickOutsideFeature from 'forgekit-components/features/click-outside';

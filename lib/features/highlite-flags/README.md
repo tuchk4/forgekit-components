@@ -1,6 +1,6 @@
 # Feature: Highlite flags
 
-* Link to [highlite flags feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/highlite-flags/index.js)
+* [Highlite flags feature isources at Github](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/highlite-flags/index.js)
 
 ```js
 import highliteFlagsFeature from 'forgekit-components/features/highlite-flags';

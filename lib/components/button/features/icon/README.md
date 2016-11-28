@@ -1,6 +1,6 @@
-# Feature: Icon
+# Button feature: Icon
 
-* Link to [icon feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/components/button/features/icon/index.js)
+* [Icon button feature sources at Github](https://github.com/tuchk4/forgekit-components/blob/master/lib/components/button/features/icon/index.js)
 
 NOTE: could be used with any component. Not only with button. So should be moved from *components/button/features* to *features*
 

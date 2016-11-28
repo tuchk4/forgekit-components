@@ -1,6 +1,6 @@
 # Feature: Raised
 
-* Link to [raised feature implementation](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/raised/index.js)
+* [Raised feature isources at Github](https://github.com/tuchk4/forgekit-components/blob/master/lib/features/raised/index.js)
 
 ```js
 import raisedFeature from 'forgekit-components/features/raised';
