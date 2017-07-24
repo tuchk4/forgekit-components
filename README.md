@@ -1,5 +1,7 @@
 # <a href="https://github.com/tuchk4/forgekit"><img src="https://raw.githubusercontent.com/tuchk4/forgekit/release/2.0/logo/forgekit-logo-small.png"></a>
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tuchk4/forgekit-components.svg)](https://greenkeeper.io/)
+
 # React Forgekit components
 
 **This project is still experimental, so feedback from component authors would be greatly appreciated!**
